@@ -1,0 +1,11 @@
+a {
+    color: rgb(151, 247, 151);
+}
+body {
+    color: white;
+    font-size: 18px;
+}
+.links {
+    border: 2px solid greenyellow;
+    width: 140px;
+}

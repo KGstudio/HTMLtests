@@ -1,0 +1,28 @@
+td{
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    display: inline-block;
+  }
+  td.aqua {
+      background: rgb(0, 217, 255);
+  }
+  td.green {
+      background: rgb(83, 233, 14);
+  }
+  td:hover{
+    background:rgb(90, 22, 218);
+  }
+  body {
+    background-color: #2e2e2e;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+button{
+    color: rgb(0, 0, 0);
+    background-color: rgb(60, 255, 180);
+    border: none;
+    height: 40px;
+    width: 200px;
+    font-weight: bold;
+}

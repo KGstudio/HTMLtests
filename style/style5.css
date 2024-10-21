@@ -1,0 +1,41 @@
+
+.blockquote-8 {
+    position: relative;
+    padding: 16px 24px;
+    margin: 16px 46px;    
+    text-align: center;
+}
+.blockquote-8:before,
+.blockquote-8:after {
+    position:absolute;
+    color: #ff7525;
+    font-size: 60px;
+    font-family: Times, sans-serif;        
+}
+.blockquote-8:before {
+    content: '«';
+    left: 300px;
+    top: -10px;
+}
+.blockquote-8:after {
+    content: '»';
+    right: 300px;
+    bottom: -10px;
+}
+cite{
+    font-style: normal;
+}
+body {
+    background-color: #2e2e2e;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+button{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 106, 60);
+    border: none;
+    height: 40px;
+    width: 200px;
+    font-weight: bold;
+    margin-left: 45%;
+}
